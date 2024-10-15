@@ -1,10 +1,36 @@
+body{
+  position: relative;
+}
+body::after {
+  background-image: url("clock.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  display: block;
+  background-size: 100%;
+}
 h1 {
   text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 footer {
   text-align: center;
+  padding: 50px;
 }
-body {
+.container {
+  background-color: #f0ece2;
   text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 15px;
+  box-shadow: 10px 10px 5px 5px rgba(199, 177, 152, 0.4);
+  border-radius: 15px;
 }
