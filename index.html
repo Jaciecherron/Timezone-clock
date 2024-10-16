@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="src/style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.46/moment-timezone-with-data-1970-2030.min.js"></script>
   <title>Timezone Clock</title>
 </head>
 <body>
@@ -16,12 +18,12 @@
       <option value="">Tokyo</option>
       <option value="">Rome</option>
     </select>
-    <div class="cities">
+    <div class="cities" id="london">
       <h2>London </h2>
     <div class="date"> December 3rd 2024</div>
     <div class="time"> 10:00 <small>AM</small></div>
     </div>
-    <div class="cities">
+    <div class="cities" id="denver">
       <h2>Denver </h2>
     <div class="date"> December 3rd 2024</div>
     <div class="time"> 10:00 <small>AM</small></div>
