@@ -24,6 +24,8 @@ h2 {
 }
 
 footer {
+  display: flex;
+  top: 150px;
   text-align: center;
   padding: 50px;
   color: beige;
