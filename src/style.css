@@ -24,10 +24,9 @@ h2 {
 }
 
 footer {
-  display: flex;
-  top: 150px;
+  position: relative;
+  top: 100px;
   text-align: center;
-  padding: 50px;
   color: beige;
 }
 .container {
